@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form input[name='delay'] {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 54px;
+box-sizing: border-box;
+outline: transparent;
+padding: 8px 16px;
+margin-bottom: 16px;
+transition: border 250ms linear;
+}
+
+.form input[name='delay']:hover {
+border: 1px solid #000;
+}
+
+.form fieldset {
+display: flex;
+justify-content: space-between;
+margin-bottom: 24px;
+padding: 24px 48px 8px 48px;
+transition: border 250ms linear;
+border-radius: 4px;
+}
+
+.form fieldset:hover {
+border: 1px solid #000;
+}
+
+.form fieldset legend {
+position: relative;
+margin-left: -26px;
+}
+
+.form input [name='state'] {
+  width: 20px;
+  height: 20px;  
+}
+
+.form button {
+font-weight: 500px;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+width: 360px;
+height: 40px;
+padding: 8px 16px;
+background: #4e75ff;
+/* max-width: 360px; */
+border-radius: 8px;
+outline: transparent;
+box-sizing: border-box;
+transition: background-color 250ms linear;
+}
+
+.form button:hover,
+.form button:focus,
+.form button:active {
+background-color: #6c8cff;
+}
